@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito+Sans:wght@400;600&family=Poppins:wght@200;300;400;500;600&display=swap');
+.nav-masthead .nav-link {
+
+    border-bottom: .25rem solid transparent;
+    animation: color-change 5s infinite;
+    background: -webkit-linear-gradient(-25deg, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color: rgb(213, 137, 213);
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    border-bottom-color: rgb(213, 137, 213);
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+.Title{
+  /* margin-top: 10px; */
+    font-family: 'Clicker Script', cursive;
+    font-weight: 900;
+    font-size: 40px;
+    animation: color-change 5s infinite;
+    background: -webkit-linear-gradient(-25deg, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Title:hover{
+    font-size:45px ;
+  }
+  @keyframes color-change {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  .text h1{
+    font-size: 50px;
+    animation: color-change 5s infinite;
+    background: -webkit-linear-gradient(-25deg, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text p{
+ font-size: 25px;
+ animation: color-change 5s infinite;
+ background: -webkit-linear-gradient(-25deg, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-weight: 700;
+  }
+  .cool-button {
+    margin-top: 12px;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    background: rgb(140, 18, 188);
+    border: 2px solid rgb(248, 247, 250);
+  }
+  .cool-button a{
+    color: rgb(245, 245, 245);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .cool-button:hover {
+    background-color: #3358d1;
+    color: #9c4e05;
+    box-shadow: 0 15px 15px rgba(233, 63, 63, 0.2);
+    border: 2px solid rgb(248, 247, 250);
+  }
+  
+  .cool-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #bf7465;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    z-index: -1;
+  }
+  
+  .cool-button:hover::before {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+.cards-main{
+  margin-top:200px;
+  display: flex;
+  justify-content: flex-end;
+}
+.col img{
+  height:300px;
+  width: 300px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hhh h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+    animation: color-change 5s infinite;
+    background: -webkit-linear-gradient(-25deg, #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.navigator {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navigator h3{
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
